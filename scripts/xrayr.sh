@@ -14,14 +14,14 @@
   fi
   
   XRAYR_PANEL_TYPE=${XRAYR_PANEL_TYPE:-NewV2board}
-  #XRAYR_NODE_TYPE=${XRAYR_NODE_TYPE:-V2ray}
+  # XRAYR_NODE_TYPE=${XRAYR_NODE_TYPE:-V2ray}
   
   cat > /xrayr.yml <<EOF
 Log:
   Level: warning                           # 日志级别：none, error, warning, info, debug
   AccessPath:                              # 访问日志路径：/etc/XrayR/access.Log
   ErrorPath:                               # 错误日志路径：/etc/XrayR/error.log
-DnsConfigPath: /etc/XrayR/dns.json         # DNS配置路径：/etc/XrayR/dns.json    # DNS配置的路径，请参考 https://xtls.github.io/config/dns.html 获取帮助
+DnsConfigPath: # /etc/XrayR/dns.json         # DNS配置路径：/etc/XrayR/dns.json    # DNS配置的路径，请参考 https://xtls.github.io/config/dns.html 获取帮助
 RouteConfigPath:                           # 路由配置路径：/etc/XrayR/route.json  # 路由配置的路径，请参考 https://xtls.github.io/config/routing.html 获取帮助
 InboundConfigPath:                         # 自定义入站配置路径：/etc/XrayR/custom_inbound.json  # 自定义入站配置的路径，请参考 https://xtls.github.io/config/inbound.html 获取帮助
 OutboundConfigPath:                        # 自定义出站配置路径：/etc/XrayR/custom_outbound.json  # 自定义出站配置的路径，请参考 https://xtls.github.io/config/outbound.html 获取帮助
