@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm XrayR-linux-64.zip \
     && chmod +x /app/XrayR
 
-ENTRYPOINT [ "XrayR", "--config", "/etc/XrayR/config.yml"]
+ENTRYPOINT [ "XrayR", "--config", "/app/config.yml"]
