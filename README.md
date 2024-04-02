@@ -5,7 +5,7 @@
 version: '3'
 services:
   xboard-node:
-    image: docker pull ghcr.io/xihaxz/xboard-node:latest
+    image: ghcr.io/xihaxz/xboard-node:latest
     container_name: xboard-node
     restart: always
     # volumes:
