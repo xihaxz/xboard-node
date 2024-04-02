@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:stable-slim
 # ubuntu:22.04, ubuntu:20.04, ubuntu:18.04
 ARG DEBIAN_FRONTEND=noninteractive
 
