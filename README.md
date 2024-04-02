@@ -10,7 +10,7 @@ services:
     restart: always
     # volumes:
       # - ./dns.json:/etc/XrayR/dns.json # 挂载当前目录的配置文件到容器内部。
-      # - ./config.yaml:/etc/XrayR/config.yaml # 挂载当前目录的配置文件到容器内部。
+      # - ./config.yaml:/etc/XrayR/config.yml # 挂载当前目录的配置文件到容器内部。
     network_mode: host # host 模式方便监听ipv4/ipv6 。
     # command: ppp --mode=server 
 ```
